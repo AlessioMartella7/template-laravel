@@ -13,13 +13,14 @@
 
 <body>
 
-
+    {{-- includo header --}}
     @include('partials.header')
 
     <main>
         @yield('main-content')
     </main>
 
+    {{-- includo footer --}}
     @include('partials.footer')
 
     @yield('additional-scripts')
